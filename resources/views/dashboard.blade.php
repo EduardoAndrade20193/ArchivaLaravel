@@ -8,19 +8,19 @@
         <!-- Tarjeta 1 -->
         <div class="bg-vino text-white rounded-2xl shadow-lg p-6">
             <h3 class="text-xl font-semibold mb-2">Ventas</h3>
-            <p class="text-4xl font-bold">120</p>
+            <p class="text-4xl font-bold">1,200</p>
         </div>
 
         <!-- Tarjeta 2 -->
         <div class="bg-verde text-white rounded-2xl shadow-lg p-6">
             <h3 class="text-xl font-semibold mb-2">Usuarios</h3>
-            <p class="text-4xl font-bold">45</p>
+            <p class="text-4xl font-bold">50</p>
         </div>
 
         <!-- Tarjeta 3 -->
         <div class="bg-gris text-white rounded-2xl shadow-lg p-6">
             <h3 class="text-xl font-semibold mb-2">Reportes</h3>
-            <p class="text-4xl font-bold">7</p>
+            <p class="text-4xl font-bold">12</p>
         </div>
     </div>
 </div>
