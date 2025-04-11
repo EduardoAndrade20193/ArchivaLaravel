@@ -30,8 +30,9 @@
 
 @push('scripts')
 <script>
-    window._datos2024 = @json($licencias2024);
-    window._datos2025 = @json($licencias2025);
-</script>
+        window._datos2024 = @json($licencias2024);
+        window._datos2025 = @json($licencias2025);
+    </script>
+    @vite(['resources/js/dashboard.js'])
 @endpush
 @endsection
