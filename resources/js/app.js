@@ -1,7 +1,7 @@
 import './bootstrap';
 import './dashboard';
-import './licencias';
 import 'alpinejs';
+import './sidebar';
 
 
 import Alpine from 'alpinejs';
