@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="bg-fondo min-h-screen py-2 px-4">
+<div class="bg-fondo min-h-screen py-20 px-4">
     <h2 class="text-2xl font-bold mb-6">Histórico de Licencias Médicas</h2>
 
     <!-- Primera fila - Panel Comparativa (más compacto) -->

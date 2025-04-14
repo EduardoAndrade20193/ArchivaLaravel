@@ -1,6 +1,8 @@
 import './bootstrap';
 import './dashboard';
 import './licencias';
+import 'alpinejs';
+
 
 import Alpine from 'alpinejs';
 

@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 
+    @livewireStyles
 
     <style>
         /* Oculta el texto del sidebar cuando está contraído */
@@ -56,6 +57,8 @@
 
 
     </style>
+
+
 </head>
 
 <body class="bg-white min-h-screen">
@@ -107,8 +110,17 @@
                         </script>
 
 
-    @yield('scripts')
-    @stack('scripts')        
+
+
+<script>
+    window.livewire = window.livewire || {};
+    window.livewire.loadScripts = function () {};
+</script>
+
+    @livewireScripts
+
+    @stack('scripts')  
+    @yield('scripts')       
         
 </body>
 </html>

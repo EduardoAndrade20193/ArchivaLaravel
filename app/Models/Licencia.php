@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Licencia extends Model
 {
-    protected $table = 'licencias';
+    protected $table = 'Licencias';
     protected $primaryKey = 'Id';
     public $timestamps = false;
 
