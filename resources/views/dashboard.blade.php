@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="bg-fondo min-h-screen py-20 px-4">
-    <h2 class="text-2xl font-bold mb-6">Histórico de Licencias Médicas</h2>
+    <h2 class="text-2xl font-bold mb-6">Licencias Médicas por año</h2>
 
     <!-- Primera fila - Panel Comparativa (más compacto) -->
     <div class="grid grid-cols-1 gap-6 mb-6 max-w-8xl mx-auto"> <!-- Added max-w-4xl and mx-auto -->

@@ -1,8 +1,6 @@
 import './bootstrap';
 import './dashboard';
 import 'alpinejs';
-import './sidebar';
-
 
 import Alpine from 'alpinejs';
 
